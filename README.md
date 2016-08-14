@@ -14,7 +14,7 @@ NW.js port for Raspberry Pi
 	
 3. **Edit _fix_libudev.so.0_ and _fix_libudev.so.1_** and replace _Your_new_binary_file_ found in their code by the real name of your binary file (in the case you did not package _nw_ and _package.nw_ together, then your binary file is just _nw_).
 
-4. In the case you need, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command.
+4. In the case you need it, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command.
 
 5. In the case the system complains about **_libudev.so.0_** just run:
 	```
