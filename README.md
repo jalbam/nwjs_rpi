@@ -35,7 +35,7 @@ Node.js version: v0.10.12
 
 ## Tested on
 * "**Raspberry Pi Model B** Revision 2.0 Mounting holes" with 512MB RAM (revision 000e) using **Raspbian GNU/Linux 7 "wheezy"** (Linux raspberrypi **4.1.19+ #858 armv6l** GNU/Linux).
-* "Raspberry Pi 3 Model B PCB Revision 1.2" with 1024MB RAM (revision a02082) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv71** GNU/Linux).
+* "**Raspberry Pi 3 Model B** PCB Revision 1.2" with 1024MB RAM (revision a02082) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv71** GNU/Linux).
 
 
 ## Compatibility
