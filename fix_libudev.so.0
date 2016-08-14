@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/udev\.so\.0/udev.so.1/g' Your_new_binary_file
