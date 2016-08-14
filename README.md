@@ -47,4 +47,4 @@ Node.js version: v0.10.12
 
 
 ## Credits:
-Original binary was shared by [Nils Måsén "piksel" (aka "spaculo")](https://github.com/piksel "NW.js web site") at <https://www.youtube.com/watch?v=MqNUYk9Y8jY> so thank you very much! :)
+The original binary was shared by [Nils Måsén "piksel" (aka "spaculo")](https://github.com/piksel "NW.js web site") at <https://www.youtube.com/watch?v=MqNUYk9Y8jY> so thank you very much! :)
