@@ -5,7 +5,7 @@ NW.js port for Raspberry Pi
 
 
 ## Instructions
-1. **You need a _package.nw_** which is just a _.zip_ file with _.nw_ extension that contains your project (at least, it needs an _index.html_ and a _package.json_). The included _package.nw_ is just an example using the [Yasminoku](https://github.com/jalbam/yasminoku "Yasminoku repository") game. Since this is only a port, if you need it you can go to the [official web site of NW.js] (http://nwjs.io/ "NW.js project") and read the documentation to know more about the _package.nw_, _package.json_, etc.
+1. **You need a _package.nw_** which is just a _.zip_ file with _.nw_ extension that contains your project (at least, it needs an _index.html_ and a _package.json_). The included _package.nw_ is just an example using the [Yasminoku](https://github.com/jalbam/yasminoku "Yasminoku repository") game. Since this is only a port, if you need it you can go to the [official web site of NW.js] (http://nwjs.io/ "NW.js project") and read the documentation to know more about _package.nw_, _package.json_, etc.
 
 2. Optional: **merge _nw_ and _package.nw_** into a single file with the following command:
 	```
