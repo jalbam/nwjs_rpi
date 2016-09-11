@@ -16,7 +16,16 @@ NW.js port for Raspberry Pi
 
 4. In the case you need it, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command.
 
-5. In the case the system complains about **_libudev.so.0_** when you try to run the binary, just type the following command:
+5. Try to **run the binary**:
+	```
+	./Your_new_binary_file
+	```
+	Note: In the case you did not merged the nw and package.nw files in one single file (_step 2_), you should run this command instead:
+	```
+	./nw package.nw
+	```
+
+6. In the case the system complains about **_libudev.so.0_** when you try to run the binary, just type the following command:
 	```
 	./fix_libudev.so.0
 	```
@@ -25,7 +34,7 @@ NW.js port for Raspberry Pi
 	./fix_libudev.so.1
 	```
 
-6. If all works well, you can distribute your project. You will need these files at least (in the same folder): _fix_libudev.so.0_, _fix_libudev.so.1_, _libffmpegsumo.so_, _nw.pak_ and _Your_new_binary_file_ (or _nw_ and _package.nw_ instead).
+7. If all works well, you can distribute your project. You will need these files at least (in the same folder): _fix_libudev.so.0_, _fix_libudev.so.1_, _libffmpegsumo.so_, _nw.pak_ and _Your_new_binary_file_ (or _nw_ and _package.nw_ instead).
 
 
 ## Versions
