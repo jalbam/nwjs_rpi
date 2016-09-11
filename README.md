@@ -5,22 +5,22 @@ NW.js port for Raspberry Pi
 
 
 ## Instructions
-1. **You need a _package.nw_** which is just a _.zip_ file with _.nw_ extension that contains your project (at least, it needs an _index.html_ and a _package.json_). The included _package.nw_ is just an example using the [Yasminoku](https://github.com/jalbam/yasminoku "Yasminoku repository") game. Since this is only a port, if you need it you can go to the [official web site of NW.js] (http://nwjs.io/ "NW.js project") and read the documentation to know more about _package.nw_, _package.json_, etc.
+1. **You need a _package.nw_** which is just a _.zip_ file with _.nw_ extension that contains your project (at least, it needs an _index.html_ and a _package.json_ inside). The included _package.nw_ is just an example using the [Yasminoku](https://github.com/jalbam/yasminoku "Yasminoku repository") game. Since this is only a port, if you need it you can go to the [official web site of NW.js] (http://nwjs.io/ "NW.js project") and read the documentation to know more about _package.nw_, _package.json_, etc.
 
 2. Optional: **merge _nw_ and _package.nw_** into a single file with the following command:
 	```
 	cat nw package.nw > Your_new_binary_file
 	```
 	
-3. **Edit _fix_libudev.so.0_ and _fix_libudev.so.1_** and replace _Your_new_binary_file_ found in their code by the real name of your binary file (in the case you did not merge _nw_ and _package.nw_ together, then replace it by just _nw_).
+3. **Edit _fix_libudev.so.0_ and _fix_libudev.so.1_** and replace _Your_new_binary_file_ found in their code by the real name of your binary file (if you did not merge _nw_ and _package.nw_ together, then replace it by just _nw_).
 
-4. In the case you need it, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command (as root).
+4. If you need it, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command (as root).
 
 5. Try to **run the binary**:
 	```
 	./Your_new_binary_file
 	```
-	In the case you did not merge the _nw_ and _package.nw_ files in one single file (as explained in _step 2_), you should run this command instead:
+	If you did not merge the _nw_ and _package.nw_ files in one single file (as explained in _step 2_), you should run this command instead:
 	```
 	./nw
 	```
