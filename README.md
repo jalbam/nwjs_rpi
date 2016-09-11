@@ -33,7 +33,7 @@ NW.js port for Raspberry Pi
 	```
 	./fix_libudev.so.1
 	```
-	Note: these two commands above will only work if you have followed the _step 3_ properly before.
+	Note: these two commands above will only work if you have followed the _step 3_ properly before. Each of them only needs to be executed once and never again.
 
 7. If all works well, you can **distribute your project**. You will need these files at least (in the same folder): _fix_libudev.so.0_, _fix_libudev.so.1_, _libffmpegsumo.so_, _nw.pak_ and _Your_new_binary_file_ (or _nw_ and _package.nw_ instead).
 
