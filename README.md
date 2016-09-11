@@ -22,7 +22,7 @@ NW.js port for Raspberry Pi
 	```
 	In the case you did not merge the nw and package.nw files in one single file (as explained in _step 2_), you should run this command instead:
 	```
-	./nw package.nw
+	./nw
 	```
 
 6. In the case the system complains about **_libudev.so.0_** when you try to run the binary, just type the following command:
