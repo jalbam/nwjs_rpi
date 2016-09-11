@@ -20,7 +20,7 @@ NW.js port for Raspberry Pi
 	```
 	./Your_new_binary_file
 	```
-	Note: In the case you did not merged the nw and package.nw files in one single file (_step 2_), you should run this command instead:
+	In the case you did not merge the nw and package.nw files in one single file (as explained in _step 2_), you should run this command instead:
 	```
 	./nw package.nw
 	```
