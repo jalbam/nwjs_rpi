@@ -1,7 +1,7 @@
 NW.js port for Raspberry Pi 
 ============================= 
 
-[NW.js](http://nwjs.io/ "NW.js web site") (formely node-webkit) binary compiled for the **ARMv6** used by Raspberry Pi. It also runs on Raspberry Pi 2 and Raspberry Pi 3 since they are backward compatible with ARMv6. Other compatible hardware could also run this binary althoguh it has not been tested yet.
+[NW.js](http://nwjs.io/ "NW.js web site") (formely node-webkit) binary compiled for the **ARMv6** used by Raspberry Pi. It also runs on Raspberry Pi 2 and Raspberry Pi 3 since they are backward compatible with ARMv6. Other compatible hardware should also be able to run this binary.
 
 
 ## Instructions
@@ -46,15 +46,18 @@ Node.js version: v0.10.12
 
 ## Tested on
 * "**Raspberry Pi Model B** Revision 2.0 Mounting holes" with 512MB RAM (revision 000e) using **Raspbian GNU/Linux 7 "wheezy"** (Linux raspberrypi **4.1.19+ #858 armv6l** GNU/Linux).
+* "**Raspberry Pi 2 Model B** PCB Revision 1.1" with 1024MB RAM (revision a01041) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.9.35-v7+ #1014 SMP armv71** GNU/Linux).
 * "**Raspberry Pi 3 Model B** PCB Revision 1.2" with 1024MB RAM (revision a02082) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv71** GNU/Linux).
+* "**Orange Pi Zero (Allwinner H2+)**" with 512MB RAM (hardware sun8i, revision 0000) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePizero **3.4.39 #2 SMP PREEMPT armv71** GNU/Linux).
+* "**Orange Pi Zero Plus2 (Allwinner H3)**" with 512MB RAM (hardware sun8i, revision 0000) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePI **3.4.112-opi #1 SMP PREEMPT armv71** GNU/Linux).
 
 
 ## Compatibility
 * **Raspberry Pi Zero**, all models (untested)
 * **Raspberry Pi**, all models
-* **Raspberry Pi 2**, all models (untested)
+* **Raspberry Pi 2**, all models
 * **Raspberry Pi 3**, all models
-* **Other devices** with compatible hardware (untested)
+* **Other devices** with compatible hardware (Orange Pi, Banana Pi, etc.)
 
 
 ## Credits
