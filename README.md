@@ -45,11 +45,12 @@ Node.js version: v0.10.12
 
 
 ## Tested on
-* "**Raspberry Pi Model B** Revision 2.0 Mounting holes" with 512MB RAM (revision 000e) using **Raspbian GNU/Linux 7 "wheezy"** (Linux raspberrypi **4.1.19+ #858 armv6l** GNU/Linux).
-* "**Raspberry Pi 2 Model B** PCB Revision 1.1" with 1024MB RAM (revision a01041) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.9.35-v7+ #1014 SMP armv71** GNU/Linux).
-* "**Raspberry Pi 3 Model B** PCB Revision 1.2" with 1024MB RAM (revision a02082) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv71** GNU/Linux).
-* "**Orange Pi Zero (Allwinner H2+)**" with 512MB RAM (hardware sun8i, revision 0000) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePizero **3.4.39 #2 SMP PREEMPT armv71** GNU/Linux).
-* "**Orange Pi Zero Plus2 (Allwinner H3)**" with 512MB RAM (hardware sun8i, revision 0000) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePI **3.4.112-opi #1 SMP PREEMPT armv71** GNU/Linux).
+* "**Raspberry Pi Model B** Revision 2.0 Mounting holes" with 512MB RAM (000e revision) using **Raspbian GNU/Linux 7 "wheezy"** (Linux raspberrypi **4.1.19+ #858 armv6l** GNU/Linux).
+* "**Raspberry Pi 2 Model B** PCB Revision 1.1" with 1024MB RAM (a01041 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.9.35-v7+ #1014 SMP armv7l** GNU/Linux).
+* "**Raspberry Pi 3 Model B** PCB Revision 1.2" with 1024MB RAM (a02082 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv7l** GNU/Linux).
+* "**Raspberry Pi 3 Model B+** PCB Revision 1.3" with 1024MB RAM (a020d3 revision) using **Raspbian GNU/Linux 9 "stretch"** (Linux raspberrypi **4.14.71-v7+ #1145 SMP armv7l** GNU/Linux).
+* "**Orange Pi Zero (Allwinner H2+)**" with 512MB RAM (hardware sun8i, 0000 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePizero **3.4.39 #2 SMP PREEMPT armv7l** GNU/Linux).
+* "**Orange Pi Zero Plus2 (Allwinner H3)**" with 512MB RAM (hardware sun8i, 0000 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePI **3.4.112-opi #1 SMP PREEMPT armv7l** GNU/Linux).
 
 
 ## Compatibility
