@@ -64,3 +64,5 @@ Node.js version: v0.10.12
 
 ## Credits
 The original binary was shared by [Nils Måsén "piksel" (aka "spaculo")](https://github.com/piksel "piksel's GitHub account") at <https://www.youtube.com/watch?v=MqNUYk9Y8jY> so thank you very much! :)
+
+This repository was created by [Juan Alba Maldonado](https://joanalbamaldonado.com/)
