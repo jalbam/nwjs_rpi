@@ -1,5 +1,5 @@
-NW.js port for Raspberry Pi 
-============================= 
+NW.js port for Raspberry Pi
+=============================
 
 [NW.js (formerly node-webkit)](http://nwjs.io/ "NW.js web site") binary compiled for the **ARMv6** used by Raspberry Pi. It also runs on Raspberry Pi 2 and Raspberry Pi 3 since they are backward compatible with ARMv6. Other compatible hardware should also be able to run this binary.
 
@@ -11,7 +11,7 @@ NW.js port for Raspberry Pi
 	```
 	cat nw package.nw > Your_new_binary_file
 	```
-	
+
 3. **Edit _fix_libudev.so.0_ and _fix_libudev.so.1_** and replace _Your_new_binary_file_ found in their code by the real name of your binary file (if you did not merge _nw_ and _package.nw_ together, then replace it by just _nw_).
 
 4. If you need it, **give executable permissions** (and other desired permissions) to _Your_new_binary_file_ (or _nw_) using the **_chmod_** command (as root).
@@ -33,7 +33,17 @@ NW.js port for Raspberry Pi
 	```
 	./fix_libudev.so.1
 	```
-	Note: these two commands above will only work if you have followed the _step 3_ properly before. Each of them only needs to be executed once and never again.
+	Note: these two commands above will only work if you have followed the _step 3_ properly before. Each of them only needs to be executed once and never again. **Only execute the script needed and do not execute the other script when not needed** (i.e. no error is thrown).
+
+	If the system complains also about **_libgconf-2.so.4_**, run this:
+	```
+	sudo apt-get install libgconf-2-4
+	```	
+
+	If you see any error regarding **_NSS_** (as for example something like this: _Failed to load NSS libraries_), try running this:
+	```
+	sudo ln -s /usr/lib/arm-linux-gnueabihf/nss/ /usr/lib/nss
+	```
 
 7. If all works well, you can **distribute your project**. You will need these files at least (in the same folder): _libffmpegsumo.so_, _nw.pak_ and _Your_new_binary_file_ (or _nw_ and _package.nw_ instead). I would recommend including _fix_libudev.so.0_ and _fix_libudev.so.1_ optionally (modified as explained in _step 3_) if you think others might need them.
 
@@ -50,16 +60,24 @@ Node.js version: v0.10.12
 * "**Raspberry Pi 3 Model B** PCB Revision 1.2" with 1024MB RAM (a02082 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux raspberrypi **4.1.19-v7+ #858 SMP armv7l** GNU/Linux).
 * "**Raspberry Pi Zero W** PCB Revision 1.1" with 512MB RAM (9000c1 revision) using **Raspbian GNU/Linux 9 "stretch"** (Linux raspberrypi **4.14.71+ #1145 SMP armv6l** GNU/Linux).
 * "**Raspberry Pi 3 Model B+** PCB Revision 1.3" with 1024MB RAM (a020d3 revision) using **Raspbian GNU/Linux 9 "stretch"** (Linux raspberrypi **4.14.71-v7+ #1145 SMP armv7l** GNU/Linux).
+* "**Raspberry Pi 4 Model B** PCB Revision 1.4" with 8GB RAM (d03114 revision) using **Raspbian GNU/Linux 11 "bullseye"** (Linux raspberrypi **6.1.21-v8+ #1642 SMP PREEMPT aarch64** GNU/Linux).
 * "**Orange Pi Zero (Allwinner H2+)**" with 512MB RAM (hardware sun8i, 0000 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePizero **3.4.39 #2 SMP PREEMPT armv7l** GNU/Linux).
 * "**Orange Pi Zero Plus2 (Allwinner H3)**" with 512MB RAM (hardware sun8i, 0000 revision) using **Raspbian GNU/Linux 8 "jessie"** (Linux OrangePI **3.4.112-opi #1 SMP PREEMPT armv7l** GNU/Linux).
 
 
 ## Compatibility
 * **Raspberry Pi Zero**, all models
+* **Raspberry Pi Zero 2**, all models
 * **Raspberry Pi**, all models
 * **Raspberry Pi 2**, all models
 * **Raspberry Pi 3**, all models
+* **Raspberry Pi 4**, all models
+* **Raspberry Pi 400**, all models
 * **Other devices** with compatible hardware (Orange Pi, Banana Pi, etc.)
+
+
+## Known issues
+* No sound available.
 
 
 ## Credits
