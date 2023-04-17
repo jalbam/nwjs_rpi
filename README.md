@@ -1,7 +1,7 @@
 NW.js port for Raspberry Pi
 =============================
 
-[NW.js (formerly node-webkit)](http://nwjs.io/ "NW.js web site") binary compiled for the **ARMv6** used by Raspberry Pi. It also runs on Raspberry Pi 2 and Raspberry Pi 3 since they are backward compatible with ARMv6. Other compatible hardware should also be able to run this binary.
+[NW.js (formerly node-webkit)](http://nwjs.io/ "NW.js web site") binary compiled for the **ARMv6** used by Raspberry Pi. It also runs on Raspberry Pi 2, Raspberry Pi 3, Raspberry Pi 4 and Raspberry Pi 400 since they are backward compatible with ARMv6. Other compatible hardware should also be able to run this binary.
 
 
 ## Instructions
